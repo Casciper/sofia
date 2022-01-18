@@ -1,0 +1,30 @@
+nav {
+  background-color:#333;
+  padding:1em;
+  ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+  li {
+    display:inline-block;
+  }
+}
+
+.some-class {
+  &:hover {
+    display:inline-block;
+  }
+  &:focus {
+    display:inline-block;
+  }
+  & > button {
+    display:inline-block;
+  }
+  &-cool {
+    display:block;
+  }
+}
+.parse{
+  color: red;
+}
